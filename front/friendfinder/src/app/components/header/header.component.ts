@@ -5,11 +5,12 @@ import {MenuItem} from "primeng/api";
 import {BrowserModule} from "@angular/platform-browser";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {ButtonModule} from "primeng/button";
+import {ChipsModule} from "primeng/chips";
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule, MenubarModule, ButtonModule],
+  imports: [CommonModule, MenubarModule, ButtonModule, ChipsModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
