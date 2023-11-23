@@ -1,12 +1,17 @@
 package com.spring.friendfinder.models;
 
 import com.spring.friendfinder.models.enums.Gender;
+import lombok.*;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity(name= "user")
 public class User extends BaseEntity {
 

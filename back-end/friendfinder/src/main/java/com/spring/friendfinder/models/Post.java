@@ -1,7 +1,13 @@
 package com.spring.friendfinder.models;
 
+import lombok.*;
+
 import javax.persistence.*;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity(name = "posts")
 public class Post  extends BaseEntity{
     @Id
