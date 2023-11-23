@@ -2,5 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/back-end/friendfinder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-end/job-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-end/sales-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-end/system-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/back-end/user-service/src/main/java" charset="UTF-8" />
   </component>
 </project>
