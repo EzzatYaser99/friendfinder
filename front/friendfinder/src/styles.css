@@ -825,28 +825,28 @@ textarea{
   Newsfeed Right Sidebar
   ==================================================*/
 
-.suggestions.affix{
-  position:fixed !important;
-}
+/*.suggestions.affix{*/
+/*  position:fixed !important;*/
+/*}*/
 
-.follow-user{
-  margin-bottom: 20px;
-}
+/*.follow-user{*/
+/*  margin-bottom: 20px;*/
+/*}*/
 
-.follow-user div{
-  margin-left: 50px;
-  position: relative;
-}
+/*.follow-user div{*/
+/*  margin-left: 50px;*/
+/*  position: relative;*/
+/*}*/
 
-.follow-user div::after{
-  content: "";
-  background: none;
-  border-top: 1px solid #f1f2f2;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: -10px;
-}
+/*.follow-user div::after{*/
+/*  content: "";*/
+/*  background: none;*/
+/*  border-top: 1px solid #f1f2f2;*/
+/*  position: absolute;*/
+/*  width: 100%;*/
+/*  left: 0;*/
+/*  bottom: -10px;*/
+/*}*/
 
 
 /*==================================================
