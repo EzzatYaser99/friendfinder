@@ -1,9 +1,14 @@
 <div id="page-contents">
   <div class="container">
     <div class="row">
-      <app-puplish></app-puplish>
-      <app-left-bar></app-left-bar>
-      <app-right-bar></app-right-bar>
+
+      <div class="col-md-3" style="position:static;">
+        <app-left-bar></app-left-bar>
+      </div>
+      <div class="col-md-7"><app-puplish></app-puplish></div>
+      <div class="col-md-2 static">
+        <app-right-bar></app-right-bar>
+      </div>
     </div>
   </div>
 </div>
