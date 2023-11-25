@@ -10,4 +10,11 @@ import { CommonModule } from '@angular/common';
 })
 export class PuplishComponent {
 
+  publishingTools: any = [
+    {icon: 'ion-compose'},
+    {icon: 'ion-images'},
+    {icon: 'ion-ios-videocam'},
+    {icon: 'ion-map'}
+  ]
+
 }
