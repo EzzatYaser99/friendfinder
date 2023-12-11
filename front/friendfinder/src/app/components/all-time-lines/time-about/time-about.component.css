@@ -1,0 +1,54 @@
+/*==================================================
+  About Profile
+  ==================================================*/
+
+.about-profile{
+  margin-bottom: 20px;
+}
+
+.about-profile .about-content-block{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f2f2;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.about-profile .about-content-block h4 i.icon-in-title{
+  margin-right: 15px;
+  color: #27aae1;
+}
+
+.about-profile .about-content-block .organization img.img-org{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.about-profile .about-content-block .organization .work-info{
+  margin-left: 50px;
+}
+
+.about-profile .about-content-block .google-maps .map{
+  height:150px;
+}
+
+ul.interests span.int-icons{
+  color: #fff;
+  font-size: 25px;
+  color: #8dc63f;
+  cursor: pointer;
+}
+
+.map-container {
+  width: 100%;
+}
+.map-container iframe{
+  display: block;
+  width: 100%;
+  position: relative; /* IE needs a position other than static */
+  pointer-events: none;
+}
+.map-container iframe.clicked{
+  pointer-events: auto;
+}
