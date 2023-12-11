@@ -16,11 +16,26 @@ import {ChipsModule} from "primeng/chips";
 })
 export class HeaderComponent {
   items: MenuItem[] = [
-    {label: 'HOME', routerLink: 'home', icon: 'fa-solid fa-house'},
-    {label: 'NewsFeeds', routerLink: 'about', icon: ''},
-    {label: 'TimeLine', routerLink: 'about', icon: ''},
-    {label: 'All Pages', routerLink: 'about', icon: ''},
-    {label: 'Contact', routerLink: 'about', icon: ''},
+    {label: 'HOME', routerLink: 'mainpage', icon: 'fa-solid fa-house'},
+    {
+      label: 'TimeLine',
+      items: [
+        {label: 'TimeLine', routerLink: 'timeline'},
+        {label: 'TimeLine About', routerLink: 'timeline-about'},
+        {label: 'TimeLine Album', routerLink: 'timeline-friends'},
+        {label: 'TimeLine Friends', routerLink: 'timeline-album'},
+      ]
+    },
+    {
+      label: 'All Pages', items: [
+        {label: 'TimeLine', routerLink: 'timeline'},
+        {label: 'TimeLine About', routerLink: 'timeline-about'},
+        {label: 'TimeLine Album', routerLink: 'timeline-friends'},
+        {label: 'TimeLine Friends', routerLink: 'timeline-album'},
+        {label: 'Contact', routerLink: 'contact'},
+      ]
+    },
+    {label: 'Contact', routerLink: 'contact', icon: ''},
 
   ];
 
