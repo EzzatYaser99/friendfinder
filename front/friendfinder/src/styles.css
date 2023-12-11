@@ -1682,6 +1682,12 @@ ul.album-photos li img{
 .p-menubar-root-list{
   margin-bottom: 0px;
 }
+.p-menuitem-content :hover {
+  background:black ;
+}
+.p-menuitem :hover {
+  background: black;
+}
 .p-menuitem-text:hover {
   color: #ffbe33 !important;
 }
@@ -1713,6 +1719,11 @@ header .p-button {
   font-size: 17px;
   color: #ffbe33;
 }
-
+.p-submenu-list{
+  background:black ;
+}
+.p-menubar .p-menuitem.p-highlight > .p-menuitem-content {
+  background: none !important;
+}
 /* End header Style*/
 
