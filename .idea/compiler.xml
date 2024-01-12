@@ -8,18 +8,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="job-service" />
-        <module name="back" />
         <module name="user-service" />
+        <module name="sales-service" />
         <module name="system-service" />
-        <module name="sales" />
+        <module name="friend finder" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Friendfinder" target="11" />
+      <module name="sales service" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="back" options="-parameters" />
+      <module name="Friendfinder" options="-parameters" />
+      <module name="friend finder" options="-parameters" />
       <module name="job-service" options="-parameters" />
-      <module name="sales" options="-parameters" />
+      <module name="sales service" options="-parameters" />
+      <module name="sales-service" options="-parameters" />
       <module name="system-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>

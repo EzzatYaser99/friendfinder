@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.spring</groupId>
-	<artifactId>back</artifactId>
+	<artifactId>friend finder</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>back-end</name>
-	<description>Demo project for Spring Boot</description>
+	<name>FriendFinder</name>
+	<description>service about any integration about friend finder</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

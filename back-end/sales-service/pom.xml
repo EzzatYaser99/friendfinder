@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.spring</groupId>
-    <artifactId>sales</artifactId>
+    <artifactId>sales-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sales-service</name>
-    <description>sales-service</description>
+    <description>service about any integration about sales</description>
     <properties>
         <java.version>11</java.version>
     </properties>
