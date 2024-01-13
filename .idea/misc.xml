@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/back-end/system-service/pom.xml" />
         <option value="$PROJECT_DIR$/back-end/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/back-end/friend finder/pom.xml" />
+        <option value="$PROJECT_DIR$/back-end/friend-finder/pom.xml" />
       </list>
     </option>
   </component>
