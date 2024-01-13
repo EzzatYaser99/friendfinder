@@ -8,10 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="job-service" />
-        <module name="user-service" />
         <module name="sales-service" />
         <module name="friend-finder" />
         <module name="system-service" />
+        <module name="user-management" />
+        <module name="user-service" />
+        <module name="user-gateway" />
+        <module name="orgnization-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,9 +28,12 @@
       <module name="friend finder" options="-parameters" />
       <module name="friend-finder" options="-parameters" />
       <module name="job-service" options="-parameters" />
+      <module name="orgnization-gateway" options="-parameters" />
       <module name="sales service" options="-parameters" />
       <module name="sales-service" options="-parameters" />
       <module name="system-service" options="-parameters" />
+      <module name="user-gateway" options="-parameters" />
+      <module name="user-management" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>
