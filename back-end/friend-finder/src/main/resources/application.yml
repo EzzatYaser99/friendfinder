@@ -1,0 +1,35 @@
+
+#spring.application.name=friend-finder-service
+#server.port=8081
+#spring.datasource.url=jdbc:postgresql://localhost:5432/friendfinder-system?driver=org.postgresql.Driver
+#spring.datasource.username=postgres
+#spring.datasource.password=hggi
+#spring.banner.location=classpath:/banners/banner.txt
+#
+#
+#spring.jpa.generate-ddl=true
+#spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.properties.hibernate.format_sql=true
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+#spring.jpa.show-sql=true
+
+spring:
+  application:
+   name:friend-finder-service
+
+  datasource:
+    url:jdbc:postgresql://localhost:5432/friendfinder-system?driver=org.postgresql.Driver
+    username:postgres
+    password:hggi
+  jpa:
+    properties:
+      hibernate:
+        ddl:
+          auto: update
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  banner:
+   location: classpath:/banners/banner.txt
+
+server:
+  port:8081
+
