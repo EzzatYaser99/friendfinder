@@ -10,8 +10,8 @@
         <module name="job-service" />
         <module name="user-service" />
         <module name="sales-service" />
+        <module name="friend-finder" />
         <module name="system-service" />
-        <module name="friend finder" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Friendfinder" options="-parameters" />
       <module name="friend finder" options="-parameters" />
+      <module name="friend-finder" options="-parameters" />
       <module name="job-service" options="-parameters" />
       <module name="sales service" options="-parameters" />
       <module name="sales-service" options="-parameters" />

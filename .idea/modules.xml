@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/front/friendfinder/friendfinder.iml" filepath="$PROJECT_DIR$/front/friendfinder/friendfinder.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/project friendfinder.iml" filepath="$PROJECT_DIR$/.idea/project friendfinder.iml" />
     </modules>
   </component>
